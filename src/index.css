@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities{
+    .bg-navbar{
+        @apply bg-Gray1;
+    }
+    .btn-primary {
+        @apply rounded-md border-2 border-Gray2 bg-Gray1 px-4 py-2 text-sm text-Cyan2 transition-colors duration-300 hover:bg-Gray1/80;
+    }
+
+    .btn-outline {
+        @apply  rounded-md border-2 border-Gray2 px-4 py-2 text-sm text-Gray1 transition-colors duration-300
+    }
+}
