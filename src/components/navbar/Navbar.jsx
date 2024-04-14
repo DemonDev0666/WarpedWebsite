@@ -3,6 +3,7 @@ import { FaCaretDown, FaDiscord } from "react-icons/fa";
 import { HiMenuAlt1, HiMenuAlt3 } from "react-icons/hi";
 import ResponsiveMenu from "./ResponsiveMenu";
 
+
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   const toggleMenu = () => {
@@ -33,9 +34,9 @@ const Navbar = () => {
                 {/* Dropdown Section */}
                 <div className="absolute -left-9 z-[99999] hidden w-[150px} bg-Gray2 shadow-md p-2 text-Cyan2 rounded-md group-hover:block">
                   <ul className="space-y-3">
-                    <li className="p-2 hover:bg-Gray1">About us</li>
-                    <li className="p-2 hover:bg-Gray1">Contact</li>
-                    <li className="p-2 hover:bg-Gray1">Releases</li>
+                    <a href="#"><li className="p-2 hover:bg-Gray1">About us</li></a>
+                    <a href='#'><li className="p-2 hover:bg-Gray1">Contact</li></a>
+                    <a href='#releases' ><li className="p-2 hover:bg-Gray1">Releases</li></a>
                   </ul>
                 </div>
               </li>
@@ -79,7 +80,7 @@ const Navbar = () => {
         </nav>
       </header>
       {/* Mobile Menu Section*/}
-      <ResponsiveMenu showMenu={showMenu} />
+      <ResponsiveMenu showMenu={showMenu} toggleMenu={toggleMenu} />
     </>
   );
 };
