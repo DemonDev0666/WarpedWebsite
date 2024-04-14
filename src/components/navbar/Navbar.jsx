@@ -38,7 +38,7 @@ const Navbar = () => {
                     <a href="#releases">
                       <li className="p-2 hover:bg-Gray1">Releases</li>
                     </a>
-                    <a href="#">
+                    <a href="#contact">
                       <li className="p-2 hover:bg-Gray1">Contact</li>
                     </a>
                   </ul>
@@ -46,7 +46,7 @@ const Navbar = () => {
               </li>
               <a href="#about"><li>About us</li></a>
               <a href="#releases"><li>Releases</li></a>
-              <a href="#"><li>Contact</li></a>
+              <a href="#contact"><li>Contact</li></a>
               <li>
                 <div>
                   <a href="https://discord.gg/zyrNW9nfYv">

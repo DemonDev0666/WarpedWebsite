@@ -15,7 +15,7 @@ const ResponsiveMenu = ({ showMenu, toggleMenu }) => {
             <a href='#releases' onClick={toggleMenu}>Releases</a>
           </li>
           <li>
-            <a href='#' onClick={toggleMenu}>Contact</a>
+            <a href='#contact' onClick={toggleMenu}>Contact</a>
           </li>
         </ul>
       </nav>
