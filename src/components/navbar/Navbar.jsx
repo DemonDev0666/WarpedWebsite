@@ -25,11 +25,11 @@ const Navbar = () => {
               <li className="group relative cursor-pointer">
                 <a href="#" className="flex items-center gap-[2px] h-[72px]">
                   Home{""}
-                  <span>
+                 {/* <span>
                     <FaCaretDown className="transition-all duration-200 group-hover:rotate-180 text-Cyan2" />
-                  </span>
+  </span> */}
                 </a>
-                {/* Dropdown Section */}
+                {/* Dropdown Section 
                 <div className="absolute -left-9 z-[99999] hidden w-[150px} bg-Gray2 shadow-md p-2 text-Cyan2 rounded-md group-hover:block">
                   <ul className="space-y-3">
                     <a href="#about">
@@ -42,7 +42,7 @@ const Navbar = () => {
                       <li className="p-2 hover:bg-Gray1">Contact</li>
                     </a>
                   </ul>
-                </div>
+                </div> */}
               </li>
               <a href="#about"><li>About us</li></a>
               <a href="#releases"><li>Releases</li></a>
