@@ -3,7 +3,6 @@ import { FaCaretDown, FaDiscord } from "react-icons/fa";
 import { HiMenuAlt1, HiMenuAlt3 } from "react-icons/hi";
 import ResponsiveMenu from "./ResponsiveMenu";
 
-
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   const toggleMenu = () => {
@@ -16,8 +15,7 @@ const Navbar = () => {
           {/* Logo section */}
           <div className="text-2xl md:text-3xl text-Purple2">
             <a href="#">
-              {" "}
-              Warped{" "}
+              Warped
               <span className="inline-block font-bold text-Cyan2">Studios</span>
             </a>
           </div>
@@ -34,15 +32,21 @@ const Navbar = () => {
                 {/* Dropdown Section */}
                 <div className="absolute -left-9 z-[99999] hidden w-[150px} bg-Gray2 shadow-md p-2 text-Cyan2 rounded-md group-hover:block">
                   <ul className="space-y-3">
-                    <a href="#"><li className="p-2 hover:bg-Gray1">About us</li></a>
-                    <a href='#'><li className="p-2 hover:bg-Gray1">Contact</li></a>
-                    <a href='#releases' ><li className="p-2 hover:bg-Gray1">Releases</li></a>
+                    <a href="#about">
+                      <li className="p-2 hover:bg-Gray1">About us</li>
+                    </a>
+                    <a href="#releases">
+                      <li className="p-2 hover:bg-Gray1">Releases</li>
+                    </a>
+                    <a href="#">
+                      <li className="p-2 hover:bg-Gray1">Contact</li>
+                    </a>
                   </ul>
                 </div>
               </li>
-              <li>About us</li>
-              <li>Contact</li>
-              <li>Releases</li>
+              <a href="#about"><li>About us</li></a>
+              <a href="#releases"><li>Releases</li></a>
+              <a href="#"><li>Contact</li></a>
               <li>
                 <div>
                   <a href="https://discord.gg/zyrNW9nfYv">

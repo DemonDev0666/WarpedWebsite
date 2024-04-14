@@ -9,13 +9,13 @@ const ResponsiveMenu = ({ showMenu, toggleMenu }) => {
             <a href='#' onClick={toggleMenu}>Home</a>
           </li>
           <li>
-            <a href='#' onClick={toggleMenu}>About us</a>
-          </li>
-          <li>
-            <a href='#' onClick={toggleMenu}>Contact</a>
+            <a href='#about' onClick={toggleMenu}>About us</a>
           </li>
           <li>
             <a href='#releases' onClick={toggleMenu}>Releases</a>
+          </li>
+          <li>
+            <a href='#' onClick={toggleMenu}>Contact</a>
           </li>
         </ul>
       </nav>

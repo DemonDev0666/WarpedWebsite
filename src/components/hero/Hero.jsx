@@ -3,7 +3,7 @@ import heroImg from "../../assets/hero1.png"
 
 const Hero = () => {
   return (
-    <div className='h-auto md:h-[500px] bg-gradient-to-r from-Cyan2 to-Purple2 pt-20 pb-10 md:pb-0'>
+    <div className='h-auto md:h-[500px] bg-gradient-to-t from-Purple1 to-Cyan2 pt-20 pb-10 md:pb-0'>
         <section className='container flex flex-col items-center justify-between'>
          <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8 text-Gray2">
          <div className="flex flex-col items-center text-center gap-4 md:items-start md:text-left">
